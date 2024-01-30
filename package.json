@@ -1,0 +1,21 @@
+{
+  "name": "b365-ti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build:watch | npm run serve",
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "clean": "rimraf dist",
+    "serve": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "rimraf": "^3.0.2"
+  }
+}

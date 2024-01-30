@@ -1,0 +1,5 @@
+@import "./app.css";
+/* Components */
+@import "./components/loader.css";
+@import "./components/notification.css";
+@import "./components/financialTable.css";

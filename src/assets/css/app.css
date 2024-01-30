@@ -1,0 +1,32 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-border: #e5e7eb;
+  --color-gray: #808a9d;
+  --color-positive: #4caf50;
+  --color-destructive: #f44336;
+}
+
+body,
+h1,
+h2,
+p,
+ul,
+li,
+table {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+.app-container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  height: 100%;
+}

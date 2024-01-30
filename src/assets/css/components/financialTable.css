@@ -1,0 +1,84 @@
+.financial-table-container {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.financial-table {
+  min-width: 100%;
+  text-indent: 0;
+  border-color: inherit;
+  border-collapse: collapse;
+}
+
+.financial-table__header {
+  background-color: var(--color-white);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.financial-table__header--row {
+  padding-left: 1.5rem;
+  color: var(--color-black);
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  text-align: left;
+  padding-right: 0.75rem;
+  padding-left: 1rem;
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+  white-space: nowrap;
+}
+
+.financial-table__header--row--numeric {
+  text-align: end;
+}
+
+.financial-table__header--row--stock {
+  text-align: start;
+}
+
+.financial-table__body {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.financial-table__row {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.financial-table__cell {
+  padding-left: 1.5rem;
+  color: var(--color-black);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding-right: 0.75rem;
+  padding-left: 1rem;
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+  white-space: nowrap;
+}
+
+.financial-table__cell--stock {
+  font-weight: 600;
+  text-align: start;
+}
+
+.financial-table__cell--stock--name {
+  font-weight: 400;
+  color: rgb(128, 138, 157);
+  margin-left: 0.5rem;
+}
+
+.financial-table__cell--numeric {
+  font-weight: 500;
+  text-align: end;
+  transition: color 1s ease-in-out;
+}
+
+.financial-table__cell--numeric--positive {
+  color: var(--color-positive);
+}
+
+.financial-table__cell--numeric--negative {
+  color: var(--color-destructive);
+}

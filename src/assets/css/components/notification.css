@@ -1,0 +1,15 @@
+.notification {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid var(--color-border);
+  margin-top: 24px;
+  display: none;
+}
+
+.notification.-show {
+  display: inline-block;
+}
